@@ -1,0 +1,58 @@
+  body{
+  margin: 0;
+  }
+
+  ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgba(104, 0, 0, 0.5);
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+#header{
+font-family:monospace;
+text-align: center;
+
+
+}
+
+#brand{
+  color:white;
+}
+
+
+.slidesContainer{
+border-style: dotted;
+}
+
+#bottom{
+  position: fixed;
+  margin-bottom: 0;
+  margin-top: 70%;
+}
+
+
+.infoBold{
+text-shadow:;
+color: blue;
+font-weight: bold;
+font-size: 100%;
+text-align: center;
+
+  }
