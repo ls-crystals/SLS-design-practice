@@ -1,17 +1,25 @@
   body{
   margin: 0;
+  background-image: url("https://cmkt-image-prd.freetls.fastly.net/0.1.0/ps/16980/910/607/m1/fpnw/wm0/gma_vector_set03_techshapes02-preview-.jpg?1374590774&s=3c8faf5de8e63fd9dd7d510783d76c6d");
+  background-repeat: no-repeat;
+  background-size: cover;
   }
 
+
+nav{
+  margin:0;
+}
   ul {
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding: 1%;
   overflow: hidden;
   background-color: rgba(104, 0, 0, 0.5);
 }
 
 li {
   float: left;
+  padding: 2%;
 }
 
 li a {
@@ -25,20 +33,46 @@ li a:hover {
   background-color: #111;
 }
 
+nav ul li {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+
+ nav ul li a {
+    margin-bottom: 0;
+}
+
 #header{
 font-family:monospace;
 text-align: center;
+background-color: blue;
+margin-top: 0;
+}
 
+#sls{
+  margin-block-start:0;
+}
 
+#man{
+  height: 100%;
+  width:50%;
+}
+
+#mountains{
+  height: 100%;
+  width:50%;
 }
 
 #brand{
   color:white;
+  background-color: blue;
 }
 
 
 .slidesContainer{
-border-style: dotted;
+  display: grid;
+  grid-template-columns: auto auto auto;
 }
 
 #bottom{
@@ -46,6 +80,7 @@ border-style: dotted;
   margin-bottom: 0;
   margin-top: 70%;
 }
+
 
 
 .infoBold{
@@ -56,3 +91,62 @@ font-size: 100%;
 text-align: center;
 
   }
+
+.info{
+  display: grid;
+  grid-template-columns: auto auto ;
+  background-color: blue ;
+  padding: 10px;
+  }
+
+  .para{
+    background-color: grey;
+    border: 1px solid ;
+    text-align: center;
+  }
+
+  #leftP{
+    margin-right: 10%;
+    text-align:left;
+    display: grid;
+  }
+
+  #rightP{
+    margin-left: 10%;
+    text-align: right;
+
+  }
+
+  .gridDisplay{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: white ;
+    padding: 10px;
+  }
+
+.grid-top{
+  background-color: blue;
+  border: 1px solid ;
+  font-size: 200%;
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+  .grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid ;
+  padding: 20%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 10%;
+  font-size: 100%;
+  text-align: center;
+}
+
+
+#assets{
+  color: blue;
+font-family: sans-serif;
+text-align: center;
+
+}
