@@ -1,6 +1,5 @@
   body{
   margin: 0;
-  background-image: url("https://cmkt-image-prd.freetls.fastly.net/0.1.0/ps/16980/910/607/m1/fpnw/wm0/gma_vector_set03_techshapes02-preview-.jpg?1374590774&s=3c8faf5de8e63fd9dd7d510783d76c6d");
   background-repeat: no-repeat;
   background-size: cover;
   }
@@ -12,7 +11,6 @@ nav{
   ul {
   list-style-type: none;
   margin: 0;
-  padding: 1%;
   overflow: hidden;
   background-color: rgba(104, 0, 0, 0.5);
 }
@@ -52,6 +50,7 @@ margin-top: 0;
 
 #sls{
   margin-block-start:0;
+  margin-block-end:0;
 }
 
 #man{
@@ -70,9 +69,8 @@ margin-top: 0;
 }
 
 
-.slidesContainer{
-  display: grid;
-  grid-template-columns: auto auto auto;
+.images{
+  margin-left:5%;
 }
 
 #bottom{
